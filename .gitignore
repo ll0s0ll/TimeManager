@@ -1,0 +1,6 @@
+timemanager
+tm
+flock
+.DS_Store
+*~
+*.o
