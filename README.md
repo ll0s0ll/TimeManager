@@ -53,13 +53,16 @@ $ echo "0:600:今朝のニュース" | tm crontab "0 7 20 8 *"
 導入方法
 (installには管理者権限が必要。/usr/local/binにイントールされます。)
 ```
-$ git clone https://github.com/ll0s0ll/timemanager.git
+$ git clone https://github.com/ll0s0ll/TimeManager.git
 $ cd timemanager
 $ make
 $ make install
 ```
 
-Doxygen
-https://ll0s0ll.github.io/timemanager/
+使用例
+- [TimeManagerを使って、聴きたいラジオ番組が流れてくる、自分だけのラジオを作る](https://ll0s0ll.wordpress.com/raspberrypi/automated_radio_station/)  
+インターネットラジオを聴取するプログラムの開始、終了時刻を管理することで、  
+様々な放送局の聴きたい番組が自動的に流れてくる仕組みを作りました。
 
-Last update 2018/02/22
+関連項目
+- [Document (Doxygen)](https://ll0s0ll.github.io/TimeManager/)
